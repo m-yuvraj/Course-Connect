@@ -12,10 +12,10 @@
 
 ## 👥 Project Members
 
-| Sr. No. | Name           | PRN No.    | Mobile No. |
-| ------- | -------------- | ---------- | ---------- |
-| 1       | Kaustubh Begde | 1272240077 | 8261977589 |
-| 2       | Yuvraj Mandlik | 1272240053 | 9960365776 |
+| Sr. No. | Name           |
+| ------- | -------------- 
+| 1       | Yuvraj Mandlik |
+| 2       | Kaustubh Begde |
 
 ---
 
