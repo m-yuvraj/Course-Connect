@@ -1,0 +1,195 @@
+
+
+ Department of Computer Science and Applications
+Mini Project on Open-Source Technologies 
+MINI PROJECT NAME - Smart Learning Companion 
+SYMCA
+Division – A
+A.Y 2025-2026
+PROJECT MEMBERS
+Sr. No.
+Name
+PRN No.
+Mobile No.
+1
+Kaustubh Begde
+1272240077
+8261977589
+2
+Yuvraj Mandlik
+1272240053
+9960365776
+
+  
+PROJECT SYNOPSIS
+Smart Learning Companion: AI-Powered Knowledge Recommender
+
+PROBLEM STATEMENT
+In traditional learning environments, students rely on limited sources like textbooks or local library books. With the explosion of digital content (e-books, research papers, online courses, videos, podcasts, blogs), students often feel overwhelmed, unsure of which material is most relevant, reliable, or suited to their learning style.
+ Existing systems either provide generic recommendations or focus only on one source (e.g., library catalogues, MOOC platforms).
+The Smart Learning Companion aims to solve this by providing a unified, AI-powered platform that helps students:
+Discover books, research articles, lecture videos, and online courses based on their academic needs.
+
+
+Get personalized recommendations aligned with their subjects, goals, and learning styles.
+
+
+Receive summaries of recommended content, saving time and improving focus.
+
+
+Track progress and build a knowledge map of what they have studied.
+
+
+
+PROJECT SCOPE
+Unified Knowledge Search:
+ Pull content from different sources (college library DB, open e-books, YouTube lectures, Coursera/MOOCs, blogs).
+
+
+AI-Powered Recommendations:
+ Suggest the best resources based on syllabus, past usage, skill level, and preferences.
+
+
+Content Summarization:
+ Use AI to generate summaries of articles, videos, and books for quick previews.
+
+
+Smart Study Companion:
+ Students can query AI directly (“Explain AVL Trees in simple terms”) and get instant guidance.
+
+
+Knowledge Tracking Dashboard:
+ Displays completed resources, pending topics, and progress reports.
+
+
+
+TECHNOLOGIES USED
+Frontend: React.js / Next.js + Tailwind CSS
+
+
+Backend: Node.js + Express.js
+
+
+Database: PostgreSQL (Prisma ORM)
+
+
+Authentication: JWT (secure login)
+
+
+AI Integration: Gemini API / OpenAI API (for recommendations + summarization + Q&A)
+
+
+Content APIs: Library DB, YouTube API, ArXiv/Google Scholar (open research), MOOCs (Coursera/edX public data)
+
+
+Deployment: Vercel (frontend), Render/Node.js server
+
+
+
+FLOW OF THE SYSTEM
+User Registration & Profile Setup
+
+
+Users sign up and specify academic details (course, subjects, goals, preferred format: video, books, articles).
+
+
+Content Search & Discovery
+
+
+Students enter a topic → System fetches resources from library DB + open APIs.
+
+
+AI Recommendation Engine
+
+
+AI ranks resources (e.g., “Best beginner-friendly book”, “Top-rated 20-min lecture”, “Concise blog summary”).
+
+
+Summarization & Preview
+
+
+AI generates summaries of chosen content.
+
+
+Example: Instead of reading a 50-page paper, student sees a 1-page summary.
+
+
+Smart Study Buddy
+
+
+In-built AI Q&A for instant explanations.
+
+
+E.g., “Explain Dijkstra’s Algorithm in 2 steps with example.”
+
+
+Knowledge Tracking
+
+
+Dashboard tracks completed topics, progress %, and provides revision reminders.
+
+
+
+MODULE DESCRIPTION
+Module 1: Authentication & User Profiles
+
+
+Secure login (JWT).
+
+
+Profiles store academic interests and preferred formats.
+
+
+Module 2: Unified Resource Fetcher
+
+
+Integrates with library DB + APIs.
+
+
+Normalizes all resources into a searchable format.
+
+
+Module 3: AI Recommendation Engine
+
+
+Uses profile + syllabus data to rank content.
+
+
+Suggests next-best resource to study.
+
+
+Module 4: AI Summarizer & Study Buddy
+
+
+Generates previews for long resources.
+
+
+On-demand AI Q&A for clarifications.
+
+
+Module 5: Knowledge Dashboard
+
+
+Visualizes progress.
+
+
+Shows completed vs. pending topics.
+
+
+
+LIMITATIONS
+Dependence on APIs: Needs access to external APIs (YouTube, ArXiv, MOOCs).
+
+
+Summarization Accuracy: AI summaries may occasionally oversimplify.
+
+
+Scalability: Handling very large content datasets may require optimization.
+
+
+
+CONCLUSION
+
+The Smart Learning Companion represents a significant step forward in addressing the challenges of information overload and fragmented access to academic resources. By integrating conventional library systems with diverse digital platforms and augmenting them with AI-driven recommendation, summarization, and knowledge-tracking capabilities, the system provides a comprehensive solution for learners.
+This platform not only enhances the efficiency of resource discovery but also supports personalized learning pathways tailored to individual preferences and academic objectives. In doing so, it fosters deeper engagement with subject matter, reduces time spent on irrelevant or redundant content, and contributes to improved academic performance.
+Looking ahead, the system’s architecture offers scalability and adaptability, enabling its application beyond the academic domain to professional training, corporate learning environments, and lifelong education initiatives.
